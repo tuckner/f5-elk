@@ -1,11 +1,11 @@
 # f5-elk
-###Logstash Configs and Kibana Dashboards for F5 LTM &amp; ASM
+### Logstash Configs and Kibana Dashboards for F5 LTM &amp; ASM
 
 Logstash input, filter, output, and mapping template used to store F5 LTM and ASM logs.  Presented at the Kansas City F5 User Group.
 
 https://johntuckner.me/2017/02/20/elk-integrating-f5-ltm-and-asm/
 
-#####Logstash Directory Structure:
+##### Logstash Directory Structure:
 
 ```
 /etc/logstash
@@ -17,7 +17,7 @@ https://johntuckner.me/2017/02/20/elk-integrating-f5-ltm-and-asm/
 │   └── f5-template.json          # Template used for F5 mappings
 ```
 
-#####Kibana Dashboards and Visualizations:
+##### Kibana Dashboards and Visualizations:
 
 Import the kibana-export.json file into your Kibana instace:
 
